@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.kotlin_gestao_rh.ui.home.HomeFragment"
-        android:label="Cadastro Funcionario"
+        android:label="Cadastro Funcionário"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.kotlin_gestao_rh.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Benefícios"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.kotlin_gestao_rh.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Folha de Pagamento"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
